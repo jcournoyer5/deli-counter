@@ -7,7 +7,7 @@ else
     deli.each.with_index(1) do |name, i|
         queue << " #{i}, {name}"
     end
-    puts queue
+    return queue
 end
 end
 
