@@ -5,9 +5,9 @@ if deli.empty?
 else
     queue = "The line is currently:"
     deli.each.with_index(1) do |name, i|
-        queue << " #{i}, {name}"
+        queue << " #{i}, #{name}"
     end
-    return queue
+    puts queue
 end
 end
 
